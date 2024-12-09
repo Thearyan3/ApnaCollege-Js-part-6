@@ -31,8 +31,14 @@
 // printPoem();
 
 // Practice Qs 2 - Create a function to roll a dice & always display the value of the dice (1 to 6).
-function rollDice(){
-    let dice = Math.floor(Math.random() * 6) + 1;
-    console.log(dice);
+// function rollDice(){
+//     let dice = Math.floor(Math.random() * 6) + 1;
+//     console.log(dice);
+// }
+// rollDice();
+
+// functions with Arguments - Values we pass to the function 
+function sum(a, b){
+    console.log(a + b);
 }
-rollDice();
+sum(1, 2);
