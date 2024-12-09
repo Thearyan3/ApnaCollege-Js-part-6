@@ -51,9 +51,9 @@
 // calcAvg(4, 5, 6);
 
 // Practice Qs 4 - Create a function that prints the multiplication table of a number.
-function printTable(n){
-    for(let i=n; i<=n*10; i+=n){
-        console.log(i);
-    }
-}
-printTable(13);
+// function printTable(n){
+//     for(let i=n; i<=n*10; i+=n){
+//         console.log(i);
+//     }
+// }
+// printTable(13);
