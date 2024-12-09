@@ -44,8 +44,16 @@
 // sum(1, 2);
 
 // Practice Qs 3 - Create a function that gives us the average of 3 numbers.
-function calcAvg(a, b, c){
-    let avg = (a+b+c)/3;
-    console.log(avg);
+// function calcAvg(a, b, c){
+//     let avg = (a+b+c)/3;
+//     console.log(avg);
+// }
+// calcAvg(4, 5, 6);
+
+// Practice Qs 4 - Create a function that prints the multiplication table of a number.
+function printTable(n){
+    for(let i=n; i<=n*10; i+=n){
+        console.log(i);
+    }
 }
-calcAvg(4, 5, 6);
+printTable(13);
