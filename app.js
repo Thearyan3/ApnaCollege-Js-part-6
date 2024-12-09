@@ -23,9 +23,16 @@
 // }
 // isAdult();
 
-// Practice Qs - Create a function that prints a poem.
-function printPoem(){
-    console.log("Twinkle Twinkle little star");
-    console.log("How i wonder what you are ");
+// Practice Qs 1 - Create a function that prints a poem.
+// function printPoem(){
+//     console.log("Twinkle Twinkle little star");
+//     console.log("How i wonder what you are ");
+// }
+// printPoem();
+
+// Practice Qs 2 - Create a function to roll a dice & always display the value of the dice (1 to 6).
+function rollDice(){
+    let dice = Math.floor(Math.random() * 6) + 1;
+    console.log(dice);
 }
-printPoem();
+rollDice();
