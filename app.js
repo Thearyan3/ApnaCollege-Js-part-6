@@ -38,7 +38,14 @@
 // rollDice();
 
 // functions with Arguments - Values we pass to the function 
-function sum(a, b){
-    console.log(a + b);
+// function sum(a, b){
+//     console.log(a + b);
+// }
+// sum(1, 2);
+
+// Practice Qs 3 - Create a function that gives us the average of 3 numbers.
+function calcAvg(a, b, c){
+    let avg = (a+b+c)/3;
+    console.log(avg);
 }
-sum(1, 2);
+calcAvg(4, 5, 6);
