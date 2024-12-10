@@ -125,12 +125,27 @@
 // Lexical Scope - a variable defined outside a function can be accessible inside another function defined after the variable declaration.
 // The opposite is NOT true. 
 
-function outerFunc(){
-    let x = 5; 
-    let y = 6;
-    function innerFunc(){
-        console.log(x);
-        console.log(y);
+// function outerFunc(){
+//     let x = 5; 
+//     let y = 6;
+//     function innerFunc(){
+//         console.log(x);
+//         console.log(y);
+//     }
+//     innerFunc();
+// }
+
+// Practice Qs 7 - What will be the output of the following written code?
+let greet = "hello";
+
+function changeGreet(){
+    let greet = "namaste";
+    console.log(greet);
+    function innerGreet(){
+        console.log(greet);
     }
-    innerFunc();
+    innerGreet();
 }
+
+console.log(greet);
+changeGreet();
