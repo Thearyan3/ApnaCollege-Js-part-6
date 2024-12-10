@@ -61,6 +61,10 @@
 // Return Keyword - Return keyword is used to return some value from the function.
 
 function sum(a, b){
+    console.log("hello");
+    console.log("hello");
     return a+b;
+    console.log("hello");
+    console.log("hello");
 }
-console.log(sum(sum(1, 2), 3));
+console.log(sum(1, 2));
