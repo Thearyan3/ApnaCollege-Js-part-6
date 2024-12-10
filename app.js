@@ -69,11 +69,21 @@
 // }
 // console.log(sum(1, 2));
 
-function isAdult(age){
-    if(age>=18){
-        return "adult";
-    }else{
-        return "not adult";
+// function isAdult(age){
+//     if(age>=18){
+//         return "adult";
+//     }else{
+//         return "not adult";
+//     }
+// }
+// isAdult(18);
+
+// Practice Qs 5 - Create a function that returns the sum of numbers from 1 to n.
+function  Sum(n){
+    let sum = 0;
+    for(let i=1; i<=n; i++){
+        sum += i;
     }
+    return sum;
 }
-isAdult(18);
+Sum(8);
