@@ -79,11 +79,21 @@
 // isAdult(18);
 
 // Practice Qs 5 - Create a function that returns the sum of numbers from 1 to n.
-function  Sum(n){
-    let sum = 0;
-    for(let i=1; i<=n; i++){
-        sum += i;
+// function  Sum(n){
+//     let sum = 0;
+//     for(let i=1; i<=n; i++){
+//         sum += i;
+//     }
+//     return sum;
+// }
+// Sum(8);
+
+// Practice Qs 6 - Create a function that returns the concatenation of all strings in an array.
+let arr = ["Aryan", "is", "the", "best", "football", "Player"];
+function concat(str){
+    let result;
+    for(let i=0; i<str.length; i++){
+        result += str[i];
     }
-    return sum;
+    return result;
 }
-Sum(8);
