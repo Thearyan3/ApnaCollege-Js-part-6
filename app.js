@@ -60,11 +60,20 @@
 
 // Return Keyword - Return keyword is used to return some value from the function.
 
-function sum(a, b){
-    console.log("hello");
-    console.log("hello");
-    return a+b;
-    console.log("hello");
-    console.log("hello");
+// function sum(a, b){
+//     console.log("hello");
+//     console.log("hello");
+//     return a+b;
+//     console.log("hello");
+//     console.log("hello");
+// }
+// console.log(sum(1, 2));
+
+function isAdult(age){
+    if(age>=18){
+        return "adult";
+    }else{
+        return "not adult";
+    }
 }
-console.log(sum(1, 2));
+isAdult(18);
