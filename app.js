@@ -89,11 +89,11 @@
 // Sum(8);
 
 // Practice Qs 6 - Create a function that returns the concatenation of all strings in an array.
-let arr = ["Aryan", "is", "the", "best", "football", "Player"];
-function concat(str){
-    let result;
-    for(let i=0; i<str.length; i++){
-        result += str[i];
-    }
-    return result;
-}
+// let arr = ["Aryan", "is", "the", "best", "football", "Player"];
+// function concat(arr){
+//     let result = "";
+//     for(let i=0; i<arr.length; i++){
+//         result += arr[i];
+//     }
+//     return result;
+// }
