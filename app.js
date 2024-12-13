@@ -165,17 +165,20 @@
 // multipleGreet(greet, 5);
 
 // Higher Order Functions 
-function oddOrEvenFactory(request){
+function oddOrEvenFactory(request) {
     if(request == "odd"){
-        return function(n) {
+        let odd = function(n) {
             console.log(!(n%2 == 0));
         }
+        return odd;
     }else if(request == "even"){
-        return function(n) {
-            console.log((n%2 == 0));
+        let even = function(n) {
+            console.log(n%2 == 0);
         }
-    }else{
+        return even;
+    }else {
         console.log("Wrong Request");
     }
 }
+let request = "even";
 
