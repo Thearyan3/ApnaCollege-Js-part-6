@@ -136,16 +136,16 @@
 // }
 
 // Practice Qs 7 - What will be the output of the following written code?
-let greet = "hello";
+// let greet = "hello";
 
-function changeGreet(){
-    let greet = "namaste";
-    console.log(greet);
-    function innerGreet(){
-        console.log(greet);
-    }
-    innerGreet();
-}
+// function changeGreet(){
+//     let greet = "namaste";
+//     console.log(greet);
+//     function innerGreet(){
+//         console.log(greet);
+//     }
+//     innerGreet();
+// }
 
-console.log(greet);
-changeGreet();
+// console.log(greet);
+// changeGreet();
