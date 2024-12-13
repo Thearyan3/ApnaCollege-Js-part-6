@@ -180,5 +180,5 @@ function oddOrEvenFactory(request) {
         console.log("Wrong Request");
     }
 }
-let request = "even";
+let request = "odd";
 
