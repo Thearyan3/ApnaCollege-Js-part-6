@@ -149,3 +149,15 @@
 
 // console.log(greet);
 // changeGreet();
+
+// Higher Order functions - Ek aisa function jo dusre kisi ek ya multiple functions ko as an argument le aur fir use kitne times call krna h ya use krna h ye define Kre ya fir kisi function ko as an output return kre.
+// Syntax :- 
+function multipleGreet(func, count){
+    for(let i=1; i<=count; i++){
+        func();
+    }
+}
+let greet = function() {
+    console.log("hello");
+}
+multipleGreet(greet, 1000);
