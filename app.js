@@ -150,14 +150,16 @@
 // console.log(greet);
 // changeGreet();
 
+// function Expressions - It is a kind of nameless function jinki value ek variable ke andar jaake store ho jati h. Ek aisa function jo kisi variable ke andar define ho jaye without any function name.
+
 // Higher Order functions - Ek aisa function jo dusre kisi ek ya multiple functions ko as an argument le aur fir use kitne times call krna h ya use krna h ye define Kre ya fir kisi function ko as an output return kre.
 // Syntax :- 
-function multipleGreet(func, count){
-    for(let i=1; i<=count; i++){
-        func();
-    }
-}
-let greet = function() {
-    console.log("hello");
-}
-multipleGreet(greet, 1000);
+// function multipleGreet(func, count){
+//     for(let i=1; i<=count; i++){
+//         func();
+//     }
+// }
+// let greet = function() {
+//     console.log("hello");
+// }
+// multipleGreet(greet, 5);
