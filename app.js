@@ -165,20 +165,22 @@
 // multipleGreet(greet, 5);
 
 // Higher Order Functions 
-function oddOrEvenFactory(request) {
-    if(request == "odd"){
-        let odd = function(n) {
-            console.log(!(n%2 == 0));
-        }
-        return odd;
-    }else if(request == "even"){
-        let even = function(n) {
-            console.log(n%2 == 0);
-        }
-        return even;
-    }else {
-        console.log("Wrong Request");
-    }
-}
-let request = "odd";
+// function oddOrEvenFactory(request) {
+//     if(request == "odd"){
+//         let odd = function(n) {
+//             console.log(!(n%2 == 0));
+//         }
+//         return odd;
+//     }else if(request == "even"){
+//         let even = function(n) {
+//             console.log(n%2 == 0);
+//         }
+//         return even;
+//     }else {
+//         console.log("Wrong Request");
+//     }
+// }
+// let request = "odd";
+
+// Methods - Actions that can be performed on an Object. Basically jo functions, object ke andar define hote h unko ham methods bolte h.
 
