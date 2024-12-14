@@ -10,4 +10,13 @@
 
 // Qs2 . Write a JavaScript function to extract unique characters from a string. 
 // Example : str = “abcdabcdefgggh” ans= “abcdefgh”
-
+let str = "abcdabcdefgggh";
+let ans = "";
+for(let i=0; i<str.length; i++) {
+    for(let j=0; j<str.length; j++){
+        if(str[i] === str[j]) {
+        ans += str[j];
+        }
+    }
+}
+console.log(ans);
