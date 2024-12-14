@@ -184,15 +184,28 @@
 
 // Methods - Actions that can be performed on an Object. Basically jo functions, object ke andar define hote h unko ham methods bolte h.
 // (i). First way of writing methods :-
+// const calculator = {
+//     num : 55,
+//     add : function(a, b) {
+//         return a+b;
+//     },
+//     sub : function(a, b) {
+//         return a-b;
+//     },
+//     mul : function(a, b) {
+//         return a*b;
+//     }
+// }
+
+// (ii). Second way of writing :-
 const calculator = {
-    num : 55,
-    add : function(a, b) {
+    add(a, b) {
         return a+b;
     },
-    sub : function(a, b) {
+    sub(a, b) {
         return a-b;
     },
-    mul : function(a, b) {
+    mul(a, b) {
         return a*b;
     }
 }
