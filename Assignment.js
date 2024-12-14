@@ -54,7 +54,11 @@
 
 
 // Qs5 . Write a JavaScript function to generate a random number within a range (start, end).
+let a = 100;
+let b = 200;
 function randomNumber(a, b){
-    console.log(Math.floor(Math.random()*b)+1);
+    let diff = b-a;
+    console.log(Math.floor(Math.random()*diff)+a);
 }
-randomNumber(0, 10);
+randomNumber(500, 1000);
+
