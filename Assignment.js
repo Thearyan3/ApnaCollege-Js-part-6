@@ -10,16 +10,18 @@
 
 // Qs2 . Write a JavaScript function to extract unique characters from a string. 
 // Example : str = “abcdabcdefgggh” ans= “abcdefgh”
-// let str = "abcdabcdefgggh";
-// let ans = "";
-// for(let i=0; i<str.length; i++) {
-//     for(let j=0; j<str.length; j++){
-//         if(str[i] === str[j]) {
-//         ans += str[j];
-//         }
-//     }
-// }
-// console.log(ans);
+let str1 = "abcdabcdefgggh";
+function getuniqueChar(str1) {
+    let ans = "";
+    for(let i=0; i<str1.length; i++){
+        let currchar = str1[i];
+        if(ans.indexOf(currchar) == -1){
+            ans += currchar;
+        }
+    }
+    return ans;
+}
+
 
 // Qs3 . Write a JavaScript function that accepts a list of country names as input and returns the longest country name as output.
 // Example : country = ["Australia","Germany","United States of America"] output : "United States of America"
@@ -35,7 +37,7 @@ function couNtry(country) {
     }
     return country[ansidx];
 }
-couNtry(country);
+
 
 
 // Qs4 . Write a JavaScript function to count the number of vowels in a String argument.
