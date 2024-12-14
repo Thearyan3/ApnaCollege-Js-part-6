@@ -36,18 +36,25 @@
 
 
 // Qs4 . Write a JavaScript function to count the number of vowels in a String argument.
-let str = "MynameisAryanTanwar";
-let vowels = "aeiouAEIOU";
-function countVowels(str, vowels) {
-let count = 0;
-for(let i=0; i<str.length; i++){
-    for(let j=0; j<vowels.length; j++){
-        if(str[i] === vowels[j]){
-            count++;
-        }
-    }
-}
-console.log(count);
-}
-countVowels(str, vowels);
+// let str = "MynameisAryanTanwar";
+// let vowels = "aeiouAEIOU";
+// function countVowels(str, vowels) {
+// let count = 0;
+// for(let i=0; i<str.length; i++){
+//     for(let j=0; j<vowels.length; j++){
+//         if(str[i] === vowels[j]){
+//             count++;
+//         }
+//     }
+// }
+// console.log(count);
+// }
+// countVowels(str, vowels);
+
+
+
 // Qs5 . Write a JavaScript function to generate a random number within a range (start, end).
+function randomNumber(a, b){
+    console.log(Math.floor(Math.random()*b)+1);
+}
+randomNumber(0, 10);
